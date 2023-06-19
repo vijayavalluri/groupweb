@@ -1,24 +1,7 @@
-footer {
-  background-color: rgb(202, 242, 255);
-  color: black;
-  padding: 40px;
-  text-align: center;
-  opacity: 0.5;
-  margin: 20px;
-  border-width: 5px;
-  border-color: rgb(202, 202, 202);
-}
-
 /* Navigation */
-#navbar {
+#nav {
   position: fixed;
   top: calc(0px + var(--nav-height));
-}
-
-nav {
-  --r-globalnav-color: rgba(0, 0, 0, .8);
-  --r-globalnav-color-secondary: #333336;
-  --r-globalnav-color-hover: #000000;
 }
 
 nav ul {
@@ -51,7 +34,36 @@ h2 {
   margin: 20px;
 }
 
-heroimg {
-  width: 200px; /* Adjust the width to your desired size */
-  height: auto; /* Automatically adjust the height while maintaining aspect ratio */
+p {
+  font-family: "SF Pro Display", sans-serif;
+  font-weight: 200;
+  font-size: 14px;
+  text-align: center;
+  margin: 20px;
+}
+
+nav a {
+  font-size: 13px;
+}
+
+body {
+  text-align: center;
+  font-family: "SF Pro Display", sans-serif;
+  }
+
+nav ul {
+  list-style: none;
+  padding: 0;
+
+}
+nav a {
+color: rgb(41, 41, 41);
+text-decoration: none;
+}
+nav a:hover {
+color: white;
+}
+nav ul {
+  background-color: rgb(245, 245, 245);
+  display: flex;
 }
