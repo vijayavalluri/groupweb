@@ -1,25 +1,118 @@
-<style > #myFooter,
+
+
+
+/*footer .paragraph{
+  font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+}*/
+footer {
+margin: 0;
+}
+
+section {
+  margin: 4em;
+}
+
+.paragraph {
+  font-size: 13px;
+  line-height: 1.33337;
+  font-weight: 400;
+  letter-spacing: -.01em;
+  font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+  text-align: left;
+  box-sizing: content-box;
+  margin: 0em 1em 0.1em 3em;
+  padding:0px 20px 10px 20px  ;
+}
+.container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  font-size: 2px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+
+.parallel {
+  flex-wrap: wrap;
+}
+
+div >  .parallel,  h5{
+font-weight: 600;
+color: black;
+}
+
+.container, .parallel,
+li,
+a {
+  color: black;
+  list-style-type: none;
+ 
+  text-decoration: none;
+  margin-right: 20px;
+  pointer-events: auto;
+  letter-spacing: normal;
+  font-size: 1em;
+  line-height: 5em;
+
+}
+
+
+
+.text {
+  color:#1d1d1f;
+  font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.text :hover {
+  color: #000;
+}
+
+.end, .parallel2,
+li,
+a {
+  color: black;
+  list-style-type: none;
+ font-weight: 200;
+  text-decoration: none;
+ 
+  
+}
+
+.parallel2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.parallel2, span {
+  color: #1d1d1f;
+}
+
+.link1{
+  text-shadow: blue;
+  text-decoration: underline;
+}
+
+.link2{
+  color:blue;
+  text-decoration: underline;
+}
+
+/*<style > #myFooter,
 footer {
   background-color: rgb(202, 242, 255);
   color: black;
   padding: 40px;
-  text-align: center;
+  
   opacity: 0.5;
   margin: 20px;
   border-width: 5px;
-  border-color: rgb(202, 202, 202);
-}
-</style > </style > <style > body {
-  text-align: center;
-  font-family: Inter, sans-serif;
-}
-nav ul {
-  background-color: lightblue;
-  display: flex;
-  justify-content: space-around;
-}
-nav ul li {
-  list-style-type: none;
-  padding: 10px;
-  width: 100%;
-}
+  border-color: rgb(202, 202, 202);}*/
